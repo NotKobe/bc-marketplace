@@ -1,0 +1,33 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Marketplace</h1>
+        <button id="connectWallet">Connect Wallet</button>
+        <div id="walletAddress"></div>
+        <h2>List Item</h2>
+        <input type="text" id="title" placeholder="Title">
+        <input type="text" id="description" placeholder="Description">
+        <input type="number" id="price" placeholder="Price">
+        <button id="listItem">List Item</button>
+        <h2>Check If Item Exists</h2>
+        <input type="text" id="checkTitle" placeholder="Enter Title">
+        <button id="checkItem">Check If Item Exists</button>
+        <div id="itemExistsMessage"></div>
+        <h2>Purchase Item</h2>
+        <input type="text" id="purchaseTitle" placeholder="Enter Title">
+        <button id="purchaseItem">Purchase Item</button>
+        <div id="purchaseMessage"></div>
+        <div id="itemsContainer"></div>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.3.5/dist/web3.min.js"></script>
+</body>
+</html>
