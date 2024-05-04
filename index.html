@@ -1,14 +1,34 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marketplace Interface</title>
+    <title style="font-family: Comic Sans MS;">Marketplace Interface</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        @keyframes changeColor {
+            0% { color: red; }
+            25% { color: blue; }
+            50% { color: green; }
+            75% { color: orange; }
+            100% { color: purple; }
+        }
+        
+        h1 {
+            animation: changeColor 8s infinite;
+            font-family: Comic Sans MS; 
+        }
+                body {
+            background-image: url('https://d7hftxdivxxvm.cloudfront.net/?quality=80&resize_to=width&src=https%3A%2F%2Fartsy-media-uploads.s3.amazonaws.com%2F2RNK1P0BYVrSCZEy_Sd1Ew%252F3417757448_4a6bdf36ce_o.jpg&width=910');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1>Marketplace</h1>
+        <h1>Random Marketplace</h1>
         <button id="connectWallet">Connect Wallet</button>
         <div id="walletAddress"></div>
         <h2>List Item</h2>
@@ -17,10 +37,12 @@
         <input type="number" id="price" placeholder="Price">
         <button id="listItem">List Item</button>
         <h2>Check If Item Exists</h2>
+        <p>If you just listed an item, please make sure that the transaction whent through (you can check the console to see when it get's listed)</p>
         <input type="text" id="checkTitle" placeholder="Enter Title">
         <button id="checkItem">Check If Item Exists</button>
         <div id="itemExistsMessage"></div>
         <h2>Purchase Item</h2>
+        <p>Might take a lil while to purchase so plz be patient <3 </p>
         <input type="text" id="purchaseTitle" placeholder="Enter Title">
         <button id="purchaseItem">Purchase Item</button>
         <div id="purchaseMessage"></div>
