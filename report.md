@@ -4,7 +4,13 @@ On the webpage, you'll see 3 main sections: a **connect wallet** button, which p
 
 I couldn't figure out a way to render all of the items of the blockchain (due to my smart contract design), so you can use the **check item** to verify if your item exists on the block chain. Just note that it is case-sensitive (i.e items Rich != rich).
 
-As of writing this report, some items you can look at are rich, and teehee.
+As of writing this report, some items you can look at are:
+
+> rich
+> teehee
+> asdf
+
+You can view the items with the **check items** button 
 
 # Challenges faced
 
