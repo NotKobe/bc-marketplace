@@ -1,6 +1,10 @@
+Here is the project URL: https://notkobe.github.io/bc-marketplace/
+
 # Project Design
 
-On the webpage, you'll see 3 main sections: a **connect wallet** button, which prompts the metaMask login if it doesn't automatically do it. A **list item** section, where you provide a title, description and price in Sepolia of whatever item you listed. A **check item** tab, where you can enter the title you are looking for and see if it already exists on the market place. A **purchase item** tab, where you input the title (if it exists) and if you have enough coins in your accout you can purchase it. Also I was having some problems getting this HTTPS encrypted on Google Cloud with Let's Encrypt so I took the easy way out and just used GitHub pages since they offer HTTPS encryption and I already need to host the files on github anyways to turn it in lol.
+On the webpage, you'll see 3 main sections: a **connect wallet** button, which prompts the metaMask login if it doesn't automatically do it. A **list item** section, where you provide a title, description and price in Sepolia of whatever item you listed (If successfull at the bottom it will say in red it was good). A **check item** tab, where you can enter the title you are looking for and see if it already exists on the market place. A **purchase item** tab, where you input the title (if it exists) and if you have enough coins in your accout you can purchase it (At the bottom it will also print the output hash). Also I was having some problems getting this HTTPS encrypted on Google Cloud with Let's Encrypt so I took the easy way out and just used GitHub pages since they offer HTTPS encryption and I already need to host the files on github anyways to turn it in lol.
+
+During testing, it could take a long time to list and/or purchase an item, so please just use the **check item** button to see if it's there (You can also open up the Console and you should see the reciepts in the console)
 
 I couldn't figure out a way to render all of the items of the blockchain (due to my smart contract design), so you can use the **check item** to verify if your item exists on the block chain. Just note that it is case-sensitive (i.e items Rich != rich).
 
@@ -10,7 +14,7 @@ As of writing this report, some items you can look at are:
 > teehee
 > asdf
 
-You can view the items with the **check items** button 
+You can view the items with the **check items** button
 
 # Challenges faced
 
